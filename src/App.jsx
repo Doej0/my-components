@@ -13,7 +13,15 @@ export default function App() {
 function Header() {
   return (
     <div className="page-header">
-      <h1> Example Webpage</h1>
+      <h1>Welcome To This Fake Site</h1>
+      <nav>
+        <ul className="main-nav">
+          <li>About</li>
+          <li>Products</li>
+          <li>Our Team</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </div>
   );
 }
@@ -34,6 +42,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
+          <button>Click here</button>
         </section>
         <section>
           <h2>Section 2</h2>
@@ -47,6 +56,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
+          <button>Click here</button>
         </section>
         <section>
           <h2>Section 3</h2>
@@ -59,11 +69,9 @@ function Stuff() {
             Suspendisse in elit eget quam sagittis venenatis. Morbi blandit quam
             vel quam eleifend, non elementum velit venenatis. Nulla facilisi.
             Nulla et libero congue, tincidunt tellus eu, laoreet neque.
-            Suspendisse elementum massa lacus, ac posuere sem fermentum semper.
-            Phasellus pharetra dolor ut dolor porta tristique. Sed rhoncus
-            sagittis nisi, sed cursus diam. Aliquam orci elit, fringilla in
-            lobortis nec, blandit non leo.
+           
           </p>
+          <button>Click here</button>
         </section>
         <section>
           <h2>Section 4</h2>
@@ -74,12 +82,9 @@ function Stuff() {
             interdum. Integer vehicula turpis ipsum, vitae iaculis magna
             ultrices in. Sed pulvinar sodales mi, mollis molestie orci
             scelerisque eget. Nulla bibendum ornare bibendum. Nam eget mauris
-            fringilla, pretium massa elementum, rutrum nunc. Donec sit amet
-            laoreet lectus. Suspendisse efficitur ex in eros porttitor, ac
-            imperdiet lorem interdum. Integer vehicula turpis ipsum, vitae
-            iaculis magna ultrices in. Sed pulvinar sodales mi, mollis molestie
-            orci scelerisque eget.
+            fringilla, pretium massa elementum.
           </p>
+          <button>Click here</button>
         </section>
       </div>
     </article>

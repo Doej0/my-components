@@ -1,4 +1,6 @@
-
+body {
+  background-color: slategray;
+}
 .wrapper {
   display: grid;
   justify-items: center;
@@ -11,7 +13,28 @@
   flex-wrap: wrap;
 }
 
+
 .container > * {
-  margin: 0 12px;
+  margin: 20px 12px;
   flex: 1 1 200px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+li {
+  list-style: none;
+
+}
+
+article {
+  background-color: lightgray;
+}
+
+section {
+background-color: darkgray;
 }
