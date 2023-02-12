@@ -42,7 +42,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
-          <button>Click here</button>
+          <Button/>
         </section>
         <section>
           <h2>Section 2</h2>
@@ -56,7 +56,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
-          <button>Click here</button>
+          <Button/>
         </section>
         <section>
           <h2>Section 3</h2>
@@ -70,7 +70,7 @@ function Stuff() {
             Nulla et libero congue, tincidunt tellus eu, laoreet neque. Aliquam orci elit
            
           </p>
-          <button>Click here</button>
+          <Button/>
         </section>
         <section>
           <h2>Section 4</h2>
@@ -83,7 +83,7 @@ function Stuff() {
             scelerisque eget. Nulla bibendum ornare bibendum. Nam eget mauris
             fringilla, pretium massa elementum.
           </p>
-          <button>Click here</button>
+         <Button/>
         </section>
       </div>
     </article>
@@ -96,4 +96,14 @@ function Footer() {
       <h3>Copyright 2023</h3>
     </footer>
   );
+}
+
+function Button() {
+  return (
+    <button onClick={DisplayFlag}>Click Here</button>
+  );
+}
+
+function DisplayFlag() {
+alert('Clicked!')
 }
