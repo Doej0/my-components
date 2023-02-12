@@ -16,10 +16,10 @@ function Header() {
       <h1>Welcome To This Fake Site</h1>
       <nav>
         <ul className="main-nav">
-          <li>About</li>
-          <li>Products</li>
-          <li>Our Team</li>
-          <li>Contact</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -61,14 +61,13 @@ function Stuff() {
         <section>
           <h2>Section 3</h2>
           <p>
-            {" "}
             Donec vitae lobortis urna. Nunc eu rutrum risus. Duis iaculis
             efficitur efficitur. Praesent hendrerit, lorem at fermentum iaculis,
             lorem libero placerat arcu, vel dignissim eros justo in arcu. Proin
             felis metus, cursus non felis a, venenatis gravida turpis.
             Suspendisse in elit eget quam sagittis venenatis. Morbi blandit quam
             vel quam eleifend, non elementum velit venenatis. Nulla facilisi.
-            Nulla et libero congue, tincidunt tellus eu, laoreet neque.
+            Nulla et libero congue, tincidunt tellus eu, laoreet neque. Aliquam orci elit
            
           </p>
           <button>Click here</button>

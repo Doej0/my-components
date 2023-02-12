@@ -25,10 +25,14 @@ body {
 
 }
 
-
+a:link {
+  text-decoration: none;
+   color:black;
+}
 li {
   list-style: none;
-
+ 
+  
 }
 
 article {
