@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 
 export default function App() {
@@ -16,14 +17,26 @@ function Header() {
       <h1>Welcome To This Fake Site</h1>
       <nav>
         <ul className="main-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li>
+            <a href="#">Our Team</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
   );
+}
+
+function Button() {
+  return <button>Click Here</button>;
 }
 
 function Stuff() {
@@ -42,7 +55,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
-          <Button/>
+          <Button />
         </section>
         <section>
           <h2>Section 2</h2>
@@ -56,7 +69,7 @@ function Stuff() {
             sed cursus diam. Aliquam orci elit, fringilla in lobortis nec,
             blandit non leo.
           </p>
-          <Button/>
+          <Button />
         </section>
         <section>
           <h2>Section 3</h2>
@@ -67,10 +80,10 @@ function Stuff() {
             felis metus, cursus non felis a, venenatis gravida turpis.
             Suspendisse in elit eget quam sagittis venenatis. Morbi blandit quam
             vel quam eleifend, non elementum velit venenatis. Nulla facilisi.
-            Nulla et libero congue, tincidunt tellus eu, laoreet neque. Aliquam orci elit
-           
+            Nulla et libero congue, tincidunt tellus eu, laoreet neque. Aliquam
+            orci elit
           </p>
-          <Button/>
+          <Button />
         </section>
         <section>
           <h2>Section 4</h2>
@@ -83,7 +96,7 @@ function Stuff() {
             scelerisque eget. Nulla bibendum ornare bibendum. Nam eget mauris
             fringilla, pretium massa elementum.
           </p>
-         <Button/>
+          <Button />
         </section>
       </div>
     </article>
@@ -96,14 +109,4 @@ function Footer() {
       <h3>Copyright 2023</h3>
     </footer>
   );
-}
-
-function Button() {
-  return (
-    <button onClick={DisplayFlag}>Click Here</button>
-  );
-}
-
-function DisplayFlag() {
-alert('Clicked!')
 }
